@@ -11,7 +11,6 @@ app.secret_key = os.urandom(24)
 # 'app' originates from the line 'app = Flask(__name__)'
 #app.run(port=8080)
 
-
 port = int(os.environ.get('PORT', 5000))
 app.secret_key = os.urandom(24)
 app.run(host='0.0.0.0', port=port)
