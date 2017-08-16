@@ -20,6 +20,7 @@ authenticate("localhost:7474", "neo4j", "neo4jhere")
 #graph = Graph()
 url = os.environ.get('GRAPHENEDB_URL', 'http://localhost:7474')
 graph = Graph(url + '/db/data/')
+
 # Instantiate our app...
 # Name it the '__name__' of this module (tweet-harvest)
 app = Flask(__name__)
